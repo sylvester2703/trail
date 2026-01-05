@@ -1,0 +1,7 @@
+age=int(input("Enter your age"))
+voter_card=input("Do you have voted id?")
+voter_card=voter_card.strip().lower()
+if age>=18 and voter_card=="yes":
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
